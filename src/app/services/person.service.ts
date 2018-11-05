@@ -9,7 +9,7 @@ export class PersonService {
 
   private configUrl = 'assets/config.json';
   private apiUrl =
-    'https://agenda-api-yfx.now.sh/api/Persons';
+    'https://agenda-gpjhkfzcct.now.sh/api/Persons';
 
   getConfig() {
     return this.http.get(this.configUrl);
