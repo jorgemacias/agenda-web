@@ -14,7 +14,7 @@ export class NewFormComponent implements OnInit {
   personForm = this.fb.group({
     id: [null],
     name: [null, Validators.required],
-    lastname: [null, Validators.required],
+    lastName: [null, Validators.required],
     email: [null, [Validators.email, Validators.required]],
     phone: [null, Validators.required],
     nick: [null],
