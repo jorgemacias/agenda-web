@@ -8,8 +8,7 @@ export class PersonService {
   constructor(private http: HttpClient) {}
 
   private configUrl = 'assets/config.json';
-  private apiUrl =
-    'https://agenda-gpjhkfzcct.now.sh/api/Persons';
+  private apiUrl ='https://agenda-gpjhkfzcct.now.sh/api/Persons';
 
   getConfig() {
     return this.http.get(this.configUrl);
